@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Ishan Echoes | Home Page</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/bootstrap-video-carousel.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Dropdown Button Styling */
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 190px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+            z-index: 1;
+            padding: 14px 8px 8px 14px;
+
+        }
+        .dropdown-content a {
+            display: flex;
+            flex-direction: column;
+    margin-bottom: 14px;
+}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .caret {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            margin-left: 2px;
+            vertical-align: middle;
+            border-top: 4px dashed;
+            border-top: 4px solid\9;
+            border-right: 4px solid transparent;
+            border-left: 4px solid transparent;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">Logo</a>
+        <ul class="nav-menu nav-links">
+            <li class="active"><a href="">HOME</a></li>
+            <li class="dropdown">
+                <a href="#">OUR WORK <span class="caret"></span></a>
+                <div class="dropdown-content">
+                    <a href="#">Public Service Ads</a>
+                    <a href="#">Short Non-Fiction</a>
+                    <a href="#">Long Non-Fiction</a>
+                    <a href="#">Fiction</a>
+                    <a href="#">Animation</a>
+                </div>
+            </li>
+            <li><a href="">OUR JOURNEY</a></li>
+            <li><a href="">CLIENTS</a></li>
+            <li><a href="">OUR TEAM</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
+        <i class='bx bx-grid-alt menu-hamburger'></i>
+    </nav>
+
+    <!-- Carousel wrapper -->
+    <div id="carouselVideoExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="2"
+                aria-label="Slide 3"></button>
+            <div class="carousel-caption">
+                <h3>Ishan Echoes | Home Page</h3>
+                <p>Ishan Echoes aspires to produce meaningful films in an aesthetic manner
+                </p>
+            </div>
+        </div>
+
+        <!-- Inner -->
+        <div class="carousel-inner">
+            <!-- Single item -->
+            <div class="carousel-item active">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://mdbcdn.b-cdn.net/img/video/Tropical.mp4" type="video/mp4" />
+                </video>
+                <!-- <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>
+            Nulla vitae elit libero, a pharetra augue mollis interdum.
+          </p>
+        </div> -->
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://mdbcdn.b-cdn.net/img/video/forest.mp4" type="video/mp4" />
+                </video>
+                <!-- <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div> -->
+            </div>
+
+            <!-- Single item -->
+            <div class="carousel-item">
+                <video class="img-fluid" autoplay loop muted>
+                    <source src="https://mdbcdn.b-cdn.net/img/video/Agua-natural.mp4" type="video/mp4" />
+                </video>
+                <!-- <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </div> -->
+            </div>
+        </div>
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-mdb-target="#carouselVideoExample"
+            data-mdb-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-mdb-target="#carouselVideoExample"
+            data-mdb-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel wrapper -->
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+
+</html>
