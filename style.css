@@ -28,6 +28,9 @@ a
   background-size:cover; 
 } */
 /*---Navbar---*/
+.logo img {
+  width: 136px;
+}
 .navbar
 {
   position:absolute;
