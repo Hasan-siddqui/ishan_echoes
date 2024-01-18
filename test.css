@@ -1946,7 +1946,7 @@ html.has-scroll-dragging {
     font-family: Gotham;
     font-style: normal;
     font-weight: 400;
-    src: url(./fonts/GothamPro.woff2) format("woff2"), url(./fonts/GothamPro.woff) format("woff"), url(./fonts/GothamPro.ttf) format("truetype")
+    src: url(../fonts/GothamPro.woff2) format("woff2"), url(../fonts/GothamPro.woff) format("woff"), url(../fonts/GothamPro.ttf) format("truetype")
 }
 
 @font-face {
@@ -1954,7 +1954,7 @@ html.has-scroll-dragging {
     font-family: Gotham;
     font-style: normal;
     font-weight: 500;
-    src: url(./fonts/GothamPro-Medium.woff2) format("woff2"), url(./fonts/GothamPro-Medium.woff) format("woff"), url(./fonts/GothamPro-Medium.ttf) format("truetype")
+    src: url(../fonts/GothamPro-Medium.woff2) format("woff2"), url(../fonts/GothamPro-Medium.woff) format("woff"), url(../fonts/GothamPro-Medium.ttf) format("truetype")
 }
 
 @font-face {
@@ -1962,7 +1962,7 @@ html.has-scroll-dragging {
     font-family: Gotham;
     font-style: normal;
     font-weight: 700;
-    src: url(./fonts/GothamPro-Black.woff2) format("woff2"), url(./fonts/GothamPro-Black.woff) format("woff"), url(./fonts/GothamPro-Black.ttf) format("truetype")
+    src: url(../fonts/GothamPro-Black.woff2) format("woff2"), url(../fonts/GothamPro-Black.woff) format("woff"), url(../fonts/GothamPro-Black.ttf) format("truetype")
 }
 
 html {
@@ -2334,7 +2334,7 @@ textarea {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    width: 60px
+    width: 180px
 }
 
 @media(max-width:768px) {
@@ -2371,62 +2371,62 @@ textarea {
 }
 
 .load-cont .layers__item-img.img1 {
-    background-image: url(./img/1.jpg)
+    background-image: url(../img/1.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img1 {
-        background-image: url(./img/1-xs.jpg)
+        background-image: url(../img/1-xs.jpg)
     }
 }
 
 .load-cont .layers__item-img.img2 {
-    background-image: url(./img/4.jpg)
+    background-image: url(../img/4.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img2 {
-        background-image: url(./img/4-xs.jpg)
+        background-image: url(../img/4-xs.jpg)
     }
 }
 
 .load-cont .layers__item-img.img3 {
-    background-image: url(./img/10.jpg)
+    background-image: url(../img/10.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img3 {
-        background-image: url(./img/10-xs.jpg)
+        background-image: url(../img/10-xs.jpg)
     }
 }
 
 .load-cont .layers__item-img.img4 {
-    background-image: url(./img/2.jpg)
+    background-image: url(../img/2.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img4 {
-        background-image: url(./img/2-xs.jpg)
+        background-image: url(../img/2-xs.jpg)
     }
 }
 
 .load-cont .layers__item-img.img5 {
-    background-image: url(./img/6.jpg)
+    background-image: url(../img/6.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img5 {
-        background-image: url(./img/6-xs.jpg)
+        background-image: url(../img/6-xs.jpg)
     }
 }
 
 .load-cont .layers__item-img.img6 {
-    background-image: url(./img/11.jpg)
+    background-image: url(../img/11.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img6 {
-        background-image: url(./img/11-xs.jpg)
+        background-image: url(../img/11-xs.jpg)
     }
 }
 
@@ -2820,6 +2820,9 @@ textarea {
     position: relative;
     width: 90.9090909091%
 }
+.relav img {
+    width: 148px;
+}
 
 .menu-cont .relav .logo-cont {
     cursor: pointer;
@@ -2851,13 +2854,13 @@ textarea {
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
 
-.menu-cont .relav .logo-cont svg .levector-hover,
+.menu-cont .relav .logo-cont svg .ishan-hover,
 .menu-cont .relav .logo-cont svg .napkin-hover.active {
     fill: #fff;
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
 
-.menu-cont .relav .logo-cont svg .levector-hover.active {
+.menu-cont .relav .logo-cont svg .ishan-hover.active {
     fill: #ff5100;
     transition: .15s cubic-bezier(.4, 0, 1, 1)
 }
@@ -4382,7 +4385,7 @@ textarea {
 }
 
 [data-controller=blog] .resources-cont .bg-res {
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./img/resources-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/resources-bg.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4904,7 +4907,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg1 {
-    background: url(./img/galapagos.jpg);
+    background: url(../img/galapagos.jpg);
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -4915,7 +4918,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg2 {
-    background: url(./img/from-core-to-sun.jpg);
+    background: url(../img/from-core-to-sun.jpg);
     background-position: 100% !important;
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
@@ -4927,7 +4930,7 @@ textarea {
 }
 
 [data-controller=cine-contenido] .doc-cont .columns .bg3 {
-    background: url(./img/BLUE-SQUAD-BOTON.jpg);
+    background: url(../img/BLUE-SQUAD-BOTON.jpg);
     filter: grayscale(100%);
     transition: .25s cubic-bezier(.4, 0, 1, 1)
 }
@@ -7778,7 +7781,7 @@ textarea {
 }
 
 [data-controller=from-core-to-sun] .banner-cont {
-    background-image: url(./img/bg-home-fcts.png);
+    background-image: url(../img/bg-home-fcts.png);
     background-position: 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8564,7 +8567,7 @@ textarea {
 }
 
 [data-controller=galapagos-evolution] .banner-cont {
-    background-image: url(./img/galapagos-evolution-banner.jpg);
+    background-image: url(../img/galapagos-evolution-banner.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9279,7 +9282,7 @@ textarea {
 }
 
 [data-controller=index]:after {
-    content: url(./img/services1.jpg) url(./img/services2.jpg) url(./img/services3.jpg) url(./img/services4.jpg) url(./img/services5.jpg) url(./img/services6.jpg) url(./img/services7.jpg);
+    content: url(../img/services1.jpg) url(../img/services2.jpg) url(../img/services3.jpg) url(../img/services4.jpg) url(../img/services5.jpg) url(../img/services6.jpg) url(../img/services7.jpg);
     height: 0;
     overflow: hidden;
     position: absolute;
@@ -9289,7 +9292,7 @@ textarea {
 
 @media(max-width:768px) {
     [data-controller=index]:after {
-        content: url(./img/services1-sm.jpg) url(./img/services2-sm.jpg) url(./img/services3-sm.jpg) url(./img/services4-sm.jpg) url(./img/services5-sm.jpg) url(./img/services6-sm.jpg) url(./img/services7-sm.jpg)
+        content: url(../img/services1-sm.jpg) url(../img/services2-sm.jpg) url(../img/services3-sm.jpg) url(../img/services4-sm.jpg) url(../img/services5-sm.jpg) url(../img/services6-sm.jpg) url(../img/services7-sm.jpg)
     }
 }
 
@@ -10843,37 +10846,37 @@ textarea {
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-1 {
-    background-image: url(./img/nosotros1.jpg)
+    background-image: url(../img/nosotros1.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-2 {
-    background-image: url(./img/nosotros2.jpg);
+    background-image: url(../img/nosotros2.jpg);
     background-position: 10%
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-3 {
-    background-image: url(./img/nosotros3.jpg)
+    background-image: url(../img/nosotros3.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-4 {
-    background-image: url(./img/nosotros4.jpg)
+    background-image: url(../img/nosotros4.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-5 {
-    background-image: url(./img/nosotros5.jpg)
+    background-image: url(../img/nosotros5.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-6 {
-    background-image: url(./img/nosotros6.jpg)
+    background-image: url(../img/nosotros6.jpg)
 }
 
 [data-controller=quienes-somos] .banner-cont .slide-7 {
-    background-image: url(./img/nosotros7.jpg)
+    background-image: url(../img/nosotros7.jpg)
 }
 
 @media(max-width:575px) {
     [data-controller=quienes-somos] .banner-cont .slide-7 {
-        background-image: url(./img/nosotros7-xs.jpg)
+        background-image: url(../img/nosotros7-xs.jpg)
     }
 }
 
@@ -11362,7 +11365,7 @@ textarea {
 
 [data-controller=recurso] .content-cont .resources-cont .bg-res {
     background-color: #212322;
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./img/resources-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/resources-bg.jpg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12507,19 +12510,19 @@ textarea {
 }
 
 [data-controller=servicios-produccion] .banner-cont .slide-1 {
-    background-image: url(./img/servicios_produccion4.jpg)
+    background-image: url(../img/servicios_produccion4.jpg)
 }
 
 [data-controller=servicios-produccion] .banner-cont .slide-2 {
-    background-image: url(./img/servicios_produccion3.jpg)
+    background-image: url(../img/servicios_produccion3.jpg)
 }
 
 [data-controller=servicios-produccion] .banner-cont .slide-3 {
-    background-image: url(./img/servicios_produccion2.jpg)
+    background-image: url(../img/servicios_produccion2.jpg)
 }
 
 [data-controller=servicios-produccion] .banner-cont .slide-4 {
-    background-image: url(./img/servicios_produccion1.jpg)
+    background-image: url(../img/servicios_produccion1.jpg)
 }
 
 [data-controller=servicios-produccion] .banner-cont .slide-5 {

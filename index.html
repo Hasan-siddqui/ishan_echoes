@@ -17,7 +17,6 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
-    <script type="text/javascript" src="./js/mdb.min.js"></script>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="test.css">
@@ -25,6 +24,7 @@
         [data-controller=index] .projects-cont .bg-columns .text-service h2 {
             color: #2a2727;
         }
+
         [data-controller=index] .projects-cont .bg-columns .text-service p {
             color: #2a2727;
         }
@@ -55,28 +55,89 @@
             </div>
         </div>
     </div>
-    <nav class="navbar">
-        <a href="javascript:void(0)" class="logo"><img src="./img/ie-logo1.jpg" alt="logo"></a>
-        <ul class="nav-menu nav-links">
-            <li class="active"><a href="javascript:void(0)">HOME</a></li>
-            <li class="dropdown">
-                <a href="javascript:void(0)">OUR WORK <span class="caret"></span></a>
-                <div class="dropdown-content">
-                    <a href="javascript:void(0)">Public Service Ads</a>
-                    <a href="javascript:void(0)">Short Non-Fiction</a>
-                    <a href="javascript:void(0)">Long Non-Fiction</a>
-                    <a href="javascript:void(0)">Fiction</a>
-                    <a href="javascript:void(0)">Animation</a>
+    <div class="menu-cont">
+        <div class="relav">
+            <a href="javascript:void(0)" class="logo"><img src="./img/ie-logo1.jpg" alt="logo"></a>
+            <div class="menu-options">
+                <div class="cent">
+                    <a class="menu-li" href="javascript:void(0)">
+                        <p class="principal">Home</p>
+                    </a>
+                    <div class="menu-li">
+                        <p class="first principal">OUR WORK</p>
+                        <div class="sub-options"><a href="javascript:void(0)">
+                                <p>Public Service Ads</p>
+                            </a><a href="javascript:void(0)">
+                                <p>Short Non-Fiction</p>
+                            </a><a href="javascript:void(0)">
+                                <p>Long Non-Fiction</p>
+                            </a><a href="javascript:void(0)">
+                                <p>Fiction</p>
+                            </a><a href="javascript:void(0)">
+                                <p>Animation</p>[
+                        </div>
+                    </div>
+                    <a class="menu-li" href="javascript:void(0)">
+                        <p class="principal">OUR JOURNEY</p>
+                    </a>
+                    <a class="menu-li" href="javascript:void(0)">
+                        <p class="principal">CLIENTS</p>
+                    </a><a class="menu-li" href="javascript:void(0)">
+                        <p class="principal">OUR TEAM</p>
+                    </a><a class="menu-li" href="javascript:void(0)">
+                        <p class="principal">CONTACT US</p>
+                    </a>
                 </div>
-            </li>
-            <li><a href="javascript:void(0)">OUR JOURNEY</a></li>
-            <li><a href="javascript:void(0)">CLIENTS</a></li>
-            <li><a href="javascript:void(0)">OUR TEAM</a></li>
-            <li><a href="javascript:void(0)">CONTACT US</a></li>
-        </ul>
-        <i class='bx bx-grid-alt menu-hamburger'></i>
-    </nav>
-
+            </div>
+            <div class="icon-cont" id="open-menu"><img src="./img/open-menu.svg" alt="Menu"></div>
+        </div>
+    </div>
+    <div class="menu-overlay">
+        <div class="close-cont"><img id="close-menu" src="./img/close.svg" alt="Close"></div>
+        <div class="menu-options">
+            <div class="columns">
+                <div class="column">
+                    <div class="first-row"><a href="javascript:void(0)">
+                            <h3 class="sub">Home</h3>
+                        </a></div>
+                </div>
+                <div class="column">
+                    <div class="first-row">
+                        <h3>OUR WORK</h3><a href="javascript:void(0)">
+                            <p>Public Service Ads</p>
+                        </a><a href="javascript:void(0)">
+                            <p>Short Non-Fiction</p>
+                        </a><a href="javascript:void(0)">
+                            <p>Long Non-Fiction</p>
+                        </a><a href="javascript:void(0)">
+                            <p>Fiction</p>
+                        </a><a href="javascript:void(0)">
+                            <p>Animation</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="first-row"><a href="javascript:void(0)">
+                            <h3 class="sub">OUR JOURNEY</h3>
+                        </a></div>
+                </div>
+                <div class="column">
+                    <div class="first-row"><a href="javascript:void(0)">
+                            <h3 class="sub">CLIENTS</h3>
+                        </a></div>
+                </div>
+                <div class="column">
+                    <div class="first-row"><a href="javascript:void(0)">
+                            <h3 class="sub">OUR TEAM</h3>
+                        </a></div>
+                </div>
+                <div class="column">
+                    <div class="first-row"><a href="javascript:void(0)">
+                            <h3 class="sub">CONTACT US</h3>
+                        </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Carousel wrapper -->
     <div data-scroll-container>
         <div data-controller="index">
@@ -261,6 +322,7 @@
 
     <!-- MDB -->
     <script src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/mdb.min.js"></script>
     <!-- Custom scripts -->
     <script type="text/javascript"></script>
     <script>
