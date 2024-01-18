@@ -45,8 +45,21 @@ a {
 
 /* testimonial slider */
 .wrapper-slide{
-  padding: 70px 0;
+  padding: 50px 0;
   overflow-x: hidden;
+  color: #fff !important;
+  background-color: #638dad;
+}
+.wrapper-slide h2{
+  text-align: center;
+}
+.wrapper-slide .lineBottom{
+  width: 180px;
+  height: 6px;
+  background-color: #fff;
+  margin: 12px auto;
+  margin-bottom: 22px;
+  border-radius: 4px;
 }
 
 
@@ -54,9 +67,9 @@ a {
   padding: 0 70px;
 }
 .slick-initialized .slick-slide{
-  background-color: #b32532;
+  background-color: #ffffff;
   color: #FFF;
-  height: 204px;
+  /* height: 204px; */
   margin: 0 15px 0 0;
   display: flex;
   align-items: center;
@@ -72,17 +85,25 @@ a {
   z-index: 5;
 }
 .slick-next{
-  right: 15px;
+  right: 25px !important;
 }
 .slick-prev{
-  left: 15px;
+  left: 25px !important;
 }
 .slick-next:before, .slick-prev:before{
-  color: #000;
+  color: #ffffff;
   font-size: 26px;
 }
 
-
+.slick-initialized .slick-slide img{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  border-radius: 0;
+  background-size: cover;
+  width: 65%;
+  margin: 32px auto;
+}
 /* header img slider End */
 @media screen and (max-width:900px) {
   .relav img {
