@@ -262,15 +262,9 @@ ul.work-list li{
   .slide img {
     margin: 0;
  }
-  .control-prev-btn {
-    top: 37%;
- }
-  .control-next-btn {
-    top: 37%;
- }
 }
 /* header img slider End */
-@media screen and (max-width:900px) {
+@media screen and (max-width:991px) {
   .relav img {
     width: 118px;
 }

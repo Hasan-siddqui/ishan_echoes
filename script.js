@@ -73,14 +73,15 @@ function next()
 {
     document.getElementById('slider-container').scrollLeft += 270;
 }
-function prev(){
+function prevButton(){
     document.getElementById('slider-container-1').scrollLeft -= 270;
 }
 
-function next()
+function nextButoon()
 {
     document.getElementById('slider-container-1').scrollLeft += 270;
 }
+
 
 
 // $(".slide img").on("click" , function(){
