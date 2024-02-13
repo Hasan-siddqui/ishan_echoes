@@ -2080,7 +2080,7 @@ body .sitle-site {
     white-space: nowrap
 }
 
-.turbo-progress-bar {
+/* .turbo-progress-bar {
     background: #ff5100;
     display: block;
     height: 3px;
@@ -2090,7 +2090,7 @@ body .sitle-site {
     transform: translateZ(0);
     transition: width .3s ease-out, opacity .15s ease-in .15s;
     z-index: 9999
-}
+} */
 
 .word {
     display: block;
