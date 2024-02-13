@@ -2371,62 +2371,64 @@ textarea {
 }
 
 .load-cont .layers__item-img.img1 {
-    background-image: url(./img/1.jpg)
+    /* background-image: url(./img/1.jpg) */
+    background-image: url(http://i3.ytimg.com/vi/iOD0j4LTgvc/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img1 {
-        background-image: url(./img/1-xs.jpg)
+        /* background-image: url(./img/1-xs.jpg) */
+        background-image: url(http://i3.ytimg.com/vi/iOD0j4LTgvc/hqdefault.jpg)
     }
 }
 
 .load-cont .layers__item-img.img2 {
-    background-image: url(./img/4.jpg)
+    background-image: url(http://i3.ytimg.com/vi/JPlT-e4zyhE/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img2 {
-        background-image: url(./img/4-xs.jpg)
+        background-image: url(http://i3.ytimg.com/vi/JPlT-e4zyhE/hqdefault.jpg)
     }
 }
 
 .load-cont .layers__item-img.img3 {
-    background-image: url(./img/10.jpg)
+    background-image: url(https://i3.ytimg.com/vi/Mbx05BcwuEo/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img3 {
-        background-image: url(./img/10-xs.jpg)
+        background-image: url(https://i3.ytimg.com/vi/Mbx05BcwuEo/hqdefault.jpg)
     }
 }
 
 .load-cont .layers__item-img.img4 {
-    background-image: url(./img/2.jpg)
+    background-image: url(http://i3.ytimg.com/vi/vtPPLhXY3SU/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img4 {
-        background-image: url(./img/2-xs.jpg)
+        background-image: url(http://i3.ytimg.com/vi/vtPPLhXY3SU/hqdefault.jpg)
     }
 }
 
 .load-cont .layers__item-img.img5 {
-    background-image: url(./img/6.jpg)
+    background-image: url(http://i3.ytimg.com/vi/8pkHpKsroiQ/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img5 {
-        background-image: url(./img/6-xs.jpg)
+        background-image: url(http://i3.ytimg.com/vi/8pkHpKsroiQ/hqdefault.jpg)
     }
 }
 
 .load-cont .layers__item-img.img6 {
-    background-image: url(./img/11.jpg)
+    background-image: url(http://i3.ytimg.com/vi/9UP5NyZXGUM/hqdefault.jpg)
 }
 
 @media(max-width:575px) {
     .load-cont .layers__item-img.img6 {
-        background-image: url(./img/11-xs.jpg)
+        background-image: url(http://i3.ytimg.com/vi/9UP5NyZXGUM/hqdefault.jpg)
     }
 }
 
