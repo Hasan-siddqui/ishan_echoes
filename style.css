@@ -247,14 +247,16 @@ nav{
     float: right;
 }
 nav ul{
-	width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 nav ul li {
-    float: left;
-    width: 20%;
-    line-height: 60px;
-    text-align: center;
+  float: left;
+  line-height: 60px;
+  text-align: center;
+  padding-right: 6%;
 }
 section>p{
 	text-align: center;
