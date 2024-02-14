@@ -317,6 +317,14 @@ div.content p{
   .relav img {
     width: 118px;
 }
+ul.clearfix{
+  padding: 0px;
+}
+ul.clearfix li {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
 /* my-work */
 ul.work-list {
